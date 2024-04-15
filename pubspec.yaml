@@ -71,6 +71,15 @@ flutter:
       - assets/images/report card.png
       - assets/images/Rectangle 77.png
       - assets/images/curriculam.png
+      - assets/images/accenture.png
+      - assets/images/deloitte.png
+      - assets/images/cognizant.png
+      - assets/images/atlassian.png
+      - assets/images/Vector (1).png
+      - assets/images/Vector (2).png
+      - assets/images/Vector (3).png
+      - assets/images/Vector.png
+      - assets/images/Group.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
