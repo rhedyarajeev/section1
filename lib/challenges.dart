@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class Challenges extends StatelessWidget {
   const Challenges({Key? key}) : super(key: key);
 
@@ -423,7 +424,7 @@ class Challenges extends StatelessWidget {
                                       ),
                                       SizedBox(width: 5),
                                       Text(
-                                        'Be a Data Scientist at TCS',
+                                        'Placement assured challenge',
                                         style: TextStyle(
                                           color: Color(0xFF3A0372),
                                           fontSize: 8,
@@ -612,7 +613,7 @@ class Challenges extends StatelessWidget {
                                       ),
                                       SizedBox(width: 5),
                                       Text(
-                                        'Be a Data Scientist at TCS',
+                                        'Software engineer role',
                                         style: TextStyle(
                                           color: Color(0xFF3A0372),
                                           fontSize: 8,
@@ -657,193 +658,302 @@ class Challenges extends StatelessWidget {
                             ),
                           ),
 
-                          SizedBox(height: 20), // Adjust height as needed
-                          Container(
-                            width: 370,
-                            height: 155,
-                            decoration: ShapeDecoration(
-                              color: Colors.white,
-                              shape: RoundedRectangleBorder(
-                                side: BorderSide(
-                                    width: 1, color: Color(0xFF414ECA)),
-                                borderRadius: BorderRadius.circular(15),
-                              ),
-                            ),
-                            child: Padding(
-                              padding: const EdgeInsets.all(
-                                  10.0), // Adjust padding as needed
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
+                          SizedBox(height: 20),
+                          Stack(
+                            children: [
+                              Container(
+                                width: 380,
+                                height: 135,
+                                decoration: ShapeDecoration(
+                                  color: Colors.white,
+                                  shape: RoundedRectangleBorder(
+                                    side: BorderSide(
+                                        width: 1, color: Color(0xFF414ECA)),
+                                    borderRadius: BorderRadius.circular(15),
+                                  ),
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(10.0),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     children: [
                                       Row(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
                                         children: [
-                                          Text(
-                                            'Testing Triumph Quest',
-                                            style: TextStyle(
-                                              color: Color(0xFF260446),
-                                              fontSize: 13,
-                                              fontFamily: 'Nunito',
-                                              fontWeight: FontWeight.w700,
-                                              height: 1,
-                                              letterSpacing: 0.65,
-                                            ),
-                                          ),
-                                          SizedBox(width: 115),
-                                          Column(
+                                          Row(
                                             crossAxisAlignment:
                                                 CrossAxisAlignment.start,
                                             children: [
-                                              Padding(
-                                                padding: const EdgeInsets.only(
-                                                    left: 5),
-                                                child: Text(
-                                                  'Powered by ',
-                                                  style: TextStyle(
-                                                    color: Color(0xFF3A0372),
-                                                    fontSize: 5,
-                                                    fontFamily: 'Nunito',
-                                                    fontWeight: FontWeight.w700,
-                                                    height: 0.48,
-                                                    letterSpacing: 0.25,
-                                                  ),
+                                              Text(
+                                                'Testing truimph quest',
+                                                style: TextStyle(
+                                                  color: Color(0xFF260446),
+                                                  fontSize: 13,
+                                                  fontFamily: 'Nunito',
+                                                  fontWeight: FontWeight.w700,
+                                                  height: 1,
+                                                  letterSpacing: 0.65,
                                                 ),
                                               ),
-                                              Container(
-                                                width: 52,
-                                                height: 22,
-                                                decoration: BoxDecoration(
-                                                  image: DecorationImage(
-                                                    image: AssetImage(
-                                                        "assets/images/deloitte.png"),
-                                                    fit: BoxFit.contain,
+                                              SizedBox(width: 115),
+                                              Column(
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.start,
+                                                children: [
+                                                  Padding(
+                                                    padding:
+                                                        const EdgeInsets.only(
+                                                            left: 5),
+                                                    child: Text(
+                                                      'Powered by ',
+                                                      style: TextStyle(
+                                                        color:
+                                                            Color(0xFF3A0372),
+                                                        fontSize: 5,
+                                                        fontFamily: 'Nunito',
+                                                        fontWeight:
+                                                            FontWeight.w700,
+                                                        height: 0.48,
+                                                        letterSpacing: 0.25,
+                                                      ),
+                                                    ),
                                                   ),
-                                                ),
+                                                  Container(
+                                                    width: 52,
+                                                    height: 22,
+                                                    decoration: BoxDecoration(
+                                                      image: DecorationImage(
+                                                        image: AssetImage(
+                                                            "assets/images/deloitte.png"),
+                                                        fit: BoxFit.contain,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ],
                                               ),
                                             ],
                                           ),
                                         ],
                                       ),
+                                      SizedBox(height: 10),
+                                      Text(
+                                        'Celebrate exceptional software testing skills through hands-on analysis and',
+                                        style: TextStyle(
+                                          color: Color(0xFFF94612),
+                                          fontSize: 7,
+                                          fontFamily: 'Nunito',
+                                          fontWeight: FontWeight.w700,
+                                          height: 0.24,
+                                          letterSpacing: 0.35,
+                                        ),
+                                      ),
+                                      Padding(
+                                        padding: const EdgeInsets.only(top: 7),
+                                        child: Row(
+                                          children: [
+                                            Container(
+                                              width: 15,
+                                              height: 15,
+                                              decoration: BoxDecoration(
+                                                image: DecorationImage(
+                                                  image: AssetImage(
+                                                      "assets/images/report card.png"),
+                                                  fit: BoxFit.contain,
+                                                ),
+                                              ),
+                                            ),
+                                            SizedBox(width: 5),
+                                            Text(
+                                              '5 Round Evaluation Process',
+                                              style: TextStyle(
+                                                color: Color(0xFF3A0372),
+                                                fontSize: 8,
+                                                fontFamily: 'Nunito',
+                                                fontWeight: FontWeight.w700,
+                                                height: 0.19,
+                                                letterSpacing: 0.40,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                      SizedBox(height: 5),
+                                      Row(
+                                        children: [
+                                          Container(
+                                            width: 15,
+                                            height: 15,
+                                            decoration: BoxDecoration(
+                                              image: DecorationImage(
+                                                image: AssetImage(
+                                                    "assets/images/curriculam.png"),
+                                                fit: BoxFit.contain,
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                      Padding(
+                                        padding:
+                                            const EdgeInsets.only(left: 190),
+                                        child: Container(
+                                          width: 128,
+                                          height: 35,
+                                          decoration: BoxDecoration(
+                                            image: DecorationImage(
+                                              image: AssetImage(
+                                                  "assets/images/Rectangle 77.png"),
+                                              fit: BoxFit.contain,
+                                            ),
+                                          ),
+                                          child: Center(
+                                            child: Text(
+                                              'Enroll Now.!',
+                                              textAlign: TextAlign.center,
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 12,
+                                                fontFamily: 'Nunito',
+                                                fontWeight: FontWeight.w700,
+                                                height: 0,
+                                                letterSpacing: 0.60,
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
                                     ],
                                   ),
-                                  SizedBox(height: 10),
-                                  Text(
-                                    'ICelebrate exceptional software testing skills through ',
-                                    style: TextStyle(
-                                      color: Color(0xFFF94612),
-                                      fontSize: 7,
-                                      fontFamily: 'Nunito',
-                                      fontWeight: FontWeight.w700,
-                                      height: 0.24,
-                                      letterSpacing: 0.35,
+                                ),
+                              ),
+                              Positioned(
+                                top: 50, // Adjust position as needed
+                                left: 0,
+                                right: 0, // Adjust position as needed
+                                child: Container(
+                                  width: 390,
+                                  height: 58,
+                                  decoration: ShapeDecoration(
+                                    color: Colors.white,
+                                    shape: RoundedRectangleBorder(
+                                      side: BorderSide(
+                                          width: 1,
+                                          color: Color.fromARGB(
+                                              255, 248, 248, 249)),
+                                      borderRadius: BorderRadius.circular(15),
                                     ),
                                   ),
-                                  SizedBox(height: 10),
-                                  Text(
-                                    ' hands-on analysis and problem-solvings.',
-                                    style: TextStyle(
-                                      color: Color(0xFFF94612),
-                                      fontSize: 7,
-                                      fontFamily: 'Nunito',
-                                      fontWeight: FontWeight.w700,
-                                      height: 0.24,
-                                      letterSpacing: 0.35,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.only(top: 7),
-                                    child: Row(
-                                      children: [
-                                        Container(
+                                  child: Row(
+                                    children: [
+                                      SizedBox(
+                                        width: 70,
+                                        child: Container(
                                           width: 15,
                                           height: 15,
                                           decoration: BoxDecoration(
                                             image: DecorationImage(
                                               image: AssetImage(
-                                                  "assets/images/report card.png"),
+                                                  "assets/images/Vector (4).png"),
                                               fit: BoxFit.contain,
                                             ),
                                           ),
                                         ),
-                                        SizedBox(width: 5),
-                                        Text(
-                                          '5 Round Evaluation Process',
-                                          style: TextStyle(
-                                            color: Color(0xFF3A0372),
-                                            fontSize: 8,
-                                            fontFamily: 'Nunito',
-                                            fontWeight: FontWeight.w700,
-                                            height: 0.19,
-                                            letterSpacing: 0.40,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                  SizedBox(height: 5),
-                                  Row(
-                                    children: [
+                                      ),
+                                      SizedBox(
+                                          width:
+                                              20), // Adjust the width between containers
                                       Container(
                                         width: 15,
                                         height: 15,
                                         decoration: BoxDecoration(
                                           image: DecorationImage(
                                             image: AssetImage(
-                                                "assets/images/curriculam.png"),
+                                                "assets/images/Vector (5).png"),
                                             fit: BoxFit.contain,
                                           ),
                                         ),
                                       ),
-                                      SizedBox(width: 5),
-                                      Text(
-                                        'Be a Data Scientist at TCS',
-                                        style: TextStyle(
-                                          color: Color(0xFF3A0372),
-                                          fontSize: 8,
-                                          fontFamily: 'Nunito',
-                                          fontWeight: FontWeight.w700,
-                                          height: 0.19,
-                                          letterSpacing: 0.40,
+                                      SizedBox(
+                                          width:
+                                              30), // Adjust the width between containers
+                                      Container(
+                                        width: 15,
+                                        height: 15,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            image: AssetImage(
+                                                "assets/images/Vector (6).png"),
+                                            fit: BoxFit.contain,
+                                          ),
+                                        ),
+                                      ),
+                                      SizedBox(
+                                          width:
+                                              30), // Adjust the width between containers
+                                      Container(
+                                        width: 85,
+                                        height: 32,
+                                        decoration: ShapeDecoration(
+                                          color: Color(0xFFDEC1F9),
+                                          shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(15),
+                                          ),
+                                        ),
+                                        child: Row(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.center,
+                                          children: [
+                                            Container(
+                                              width: 15,
+                                              height: 15,
+                                              decoration: BoxDecoration(
+                                                image: DecorationImage(
+                                                  image: AssetImage(
+                                                      "assets/images/Group (1).png"),
+                                                  fit: BoxFit.contain,
+                                                ),
+                                              ),
+                                            ),
+                                            const SizedBox(
+                                                width:
+                                                    5), // Adjust the width between icon and text
+                                            const Text(
+                                              'Crack',
+                                              textAlign: TextAlign.center,
+                                              style: TextStyle(
+                                                color: Color(0xFF260446),
+                                                fontSize: 12,
+                                                fontFamily: 'Montserrat',
+                                                fontWeight: FontWeight.w600,
+                                                height: 1.0,
+                                                letterSpacing: 0.50,
+                                              ),
+                                            )
+                                          ],
+                                        ),
+                                      ),
+                                      SizedBox(
+                                          width:
+                                              30), // Adjust the width between containers
+                                      Container(
+                                        width: 15,
+                                        height: 15,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            image: AssetImage(
+                                                "assets/images/Vector (7).png"),
+                                            fit: BoxFit.contain,
+                                          ),
                                         ),
                                       ),
                                     ],
                                   ),
-                                  Padding(
-                                    padding: const EdgeInsets.only(left: 190),
-                                    child: Container(
-                                      width: 128,
-                                      height: 35,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          image: AssetImage(
-                                              "assets/images/Rectangle 77.png"),
-                                          fit: BoxFit.contain,
-                                        ),
-                                      ),
-                                      child: Center(
-                                        child: Text(
-                                          'Enroll Now.!',
-                                          textAlign: TextAlign.center,
-                                          style: TextStyle(
-                                            color: Colors.white,
-                                            fontSize: 12,
-                                            fontFamily: 'Nunito',
-                                            fontWeight: FontWeight.w700,
-                                            height: 0,
-                                            letterSpacing: 0.60,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ],
+                                ),
                               ),
-                            ),
+                            ],
                           ),
 
                           SizedBox(height: 20), // Adjust height as needed
@@ -978,7 +1088,7 @@ class Challenges extends StatelessWidget {
                                       ),
                                       SizedBox(width: 5),
                                       Text(
-                                        'Be a Data Scientist at TCS',
+                                        'Placement assisstant assurance',
                                         style: TextStyle(
                                           color: Color(0xFF3A0372),
                                           fontSize: 8,
@@ -1022,78 +1132,6 @@ class Challenges extends StatelessWidget {
                               ),
                             ),
                           ),
-
-Container(
-width: 344,
-height: 58,
-decoration: ShapeDecoration(
-color: Colors.white,
-shape: RoundedRectangleBorder(
-side: BorderSide(width: 1, color: Color(0xFF414ECA)),
-borderRadius: BorderRadius.circular(15),
-),
-),
-child: Row(
-  children: [
-    Container(
-      width: 15,
-      height: 15,
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: NetworkImage("assets/images/Vector (1).png"),
-          fit: BoxFit.contain,
-        ),
-      ),
-    ),
-    SizedBox(width: 10), // Adjust the width between containers
-    Container(
-      width: 15,
-      height: 15,
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: NetworkImage("assets/images/Vector.png"),
-          fit: BoxFit.contain,
-        ),
-      ),
-    ),
-    SizedBox(width: 10), // Adjust the width between containers
-    Container(
-      width: 15,
-      height: 15,
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: NetworkImage("assets/images/Vector.png"),
-          fit: BoxFit.contain,
-        ),
-      ),
-    ),
-    SizedBox(width: 10), // Adjust the width between containers
-    Container(
-      width: 15,
-      height: 15,
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: NetworkImage("assets/images/Vector.png"),
-          fit: BoxFit.contain,
-        ),
-      ),
-    ),
-    SizedBox(width: 10), // Adjust the width between containers
-    Container(
-      width: 15,
-      height: 15,
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: NetworkImage("assets/images/Vector (1).png"),
-          fit: BoxFit.contain,
-        ),
-      ),
-    ),
-  ],
-),
-
-
-),            
                         ],
                       ),
                     ],
