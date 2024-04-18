@@ -7,7 +7,7 @@ class EnrollChallenge extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: Column(
+        child: Column( 
           children: [
             Container(
               width: 360,
